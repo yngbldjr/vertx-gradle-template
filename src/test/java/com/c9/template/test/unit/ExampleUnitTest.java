@@ -1,6 +1,7 @@
-package com.mycompany.myproject.test.unit;
+package com.c9.template.test.unit;
 
-import com.mycompany.myproject.PingVerticle;
+import com.c9.template.TempVerticle;
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -27,7 +28,7 @@ public class ExampleUnitTest {
 
   @Test
   public void testVerticle() {
-    PingVerticle vert = new PingVerticle();
+    TempVerticle vert = new TempVerticle();
 
     // Interrogate your classes directly....
 
